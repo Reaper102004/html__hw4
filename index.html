@@ -1,50 +1,59 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 style="font-family: 'Courier New', Courier, monospace;">About me</h1>
-    <p style="font-style: italic;">
-	Hello I am Akshat B. Wadhwa but people call me akki I am an international student from India.<br>
-	I am also an audio ethusiast and an avid gamer.My usual gamer tag is Reaper like the overwatch agent Reaper<br>
-	or the Grim Reaper
-	</p>
-	<img src="image.png" width="200" height="200">
-    <h2>Games I Grind in 2025 </h2><br>
-	 <p style="font-style: italic;">
-	 1)Marvel Rivals<br>
-	 2)Overwatch <br>
-	 3)Frag Punk (still waiting for it to release)<br>
-	 4)Mortal Kombat 	 <br>
-	</p>
-    <img src="frag.jpg" width="400" height="200">
-	<h3>About Frag Punk <h3>
-	<p style="font-style: italic;">
-	Frag punk is a new 5v5 tactical shooting game which is set to be released in march this year<br>
-	and it is a fusion of one of my favourite games valorant and call of duty.<br>
-	It bring the physics and playstyle of COD fused with the abilities from valorant<br>
-	Instead of having an ultimate ability the team votes on perks and stuff like no spray or<br>
-	enemy crouches when hit but follows the basic spike detonation.<br>
-	<a href="https://www.youtube.com/watch?v=XKsUF0eQk0o&t" target="_blank">The video trailer for it can be found at this link</a></p>
-    <h3> My Top 5 anime openings </h3>
-	<p>
-	<a href="https://open.spotify.com/track/5RXmLhscstsdvWPN0XtUa0?si=2599eddb9ec346fd" target="_blank">Black Catcher-Black Clover</a><br>
-	<a href="https://open.spotify.com/track/0eTQEpSLPnZhuahEuf1IE1?si=2dd46745d11e42ac" target="_blank">Demon Slayer Rengoku Theme</a><br>
-	<a href="https://open.spotify.com/track/6KYOlIwDHbrbeBbJEtQ0Fj?si=9b4e351a247545c7" target="_blank">Dan da Dan Otonoke Opening </a><br>
-	<a href="https://open.spotify.com/track/0kdqcbwei4MDWFEX5f33yG?si=8ac4fefa853943a2" target="_blank">Bling ban bang born Otonoke </a><br>
-	<a href="https://open.spotify.com/track/4rvtqOGyTPZJwWtVTNdZbu?si=b70fc5df3b124012" target="_blank">Lemon  </a><br>
-	</p>
-   <h2>Music my life</h2>
-   <p style="font-style: italic;">
-   Music is a very big part of my life i have been playin musical instuments since i was in first grade<br>
-   I also use software such as Fl studio from imageline and logic pro x to make remake of the well known edms or compose<br>
-   my own music.<br>
-   <img src="fl.png" width="400" height="200">
-   Below is one my remake for sing me to sleep by alan walker which took me a week +-2 days to make<br>
-    <audio controls>
-        <source src="audio.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+    <div class="container">
+        <h1>About Me</h1>
+        <p class="intro">
+            Hello, I am <strong>Akshat B. Wadhwa</strong>, but people call me Akki. I am an international student from India.<br>
+            I am also an audio enthusiast and an avid gamer. My usual gamer tag is <span class="highlight">Reaper</span> like the Overwatch agent Reaper or the Grim Reaper.
+        </p>
+        <img src="image.png" class="profile-pic">
 
+        <h2>Games I Grind in 2025</h2>
+        <ul class="game-list">
+            <li>Marvel Rivals</li>
+            <li>Overwatch</li>
+            <li>Frag Punk (still waiting for it to release)</li>
+            <li>Mortal Kombat</li>
+        </ul>
+        <img src="frag.jpg" class="game-img">
+
+        <h3>About Frag Punk</h3>
+        <p>
+            Frag Punk is a new 5v5 tactical shooting game set to be released in March this year.<br>
+            It is a fusion of two of my favorite games: <strong>Valorant</strong> and <strong>Call of Duty</strong>.<br>
+            Instead of having an ultimate ability, the team votes on perks like "no spray" or "enemy crouches when hit," but the game follows the basic spike detonation concept.<br>
+            <a href="https://www.youtube.com/watch?v=XKsUF0eQk0o&t" target="_blank" class="trailer-link">Watch the trailer here</a>
+        </p>
+
+        <h3>My Top 5 Anime Openings</h3>
+        <ul class="anime-list">
+            <li><a href="https://open.spotify.com/track/5RXmLhscstsdvWPN0XtUa0?si=2599eddb9ec346fd" target="_blank">Black Catcher - Black Clover</a></li>
+            <li><a href="https://open.spotify.com/track/0eTQEpSLPnZhuahEuf1IE1?si=2dd46745d11e42ac" target="_blank">Demon Slayer Rengoku Theme</a></li>
+            <li><a href="https://open.spotify.com/track/6KYOlIwDHbrbeBbJEtQ0Fj?si=9b4e351a247545c7" target="_blank">Dan da Dan Otonoke Opening</a></li>
+            <li><a href="https://open.spotify.com/track/0kdqcbwei4MDWFEX5f33yG?si=8ac4fefa853943a2" target="_blank">Bling Ban Bang Born Otonoke</a></li>
+            <li><a href="https://open.spotify.com/track/4rvtqOGyTPZJwWtVTNdZbu?si=b70fc5df3b124012" target="_blank">Lemon</a></li>
+        </ul>
+
+        <h2>Music is My Life</h2>
+        <p>
+            Music is a huge part of my life—I have been playing musical instruments since first grade.<br>
+            I use software like <strong>FL Studio</strong> and <strong>Logic Pro X</strong> to remake well-known EDMs or compose my own music.<br>
+            <img src="fl.png" class="music-img">
+        </p>
+
+        <h3>Sing Me to Sleep (Remake)</h3>
+        <p>This remake took me about a week to complete.</p>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 </body>
 </html>
