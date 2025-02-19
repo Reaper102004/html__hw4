@@ -72,3 +72,36 @@ a:hover {
 .trailer-link:hover {
     background: #ff2e00;
 }
+.audio-card {
+    width: 400px;
+    background: url('image.png') no-repeat center/cover; /* Set the background image */
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.audio-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.audio-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.audio-artist {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
